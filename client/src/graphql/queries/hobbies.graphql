@@ -1,0 +1,6 @@
+query Hobbies {
+    hobbies {
+        id
+        name
+    }
+}

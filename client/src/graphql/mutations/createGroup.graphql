@@ -1,0 +1,11 @@
+mutation CreateGroup($name: String!, $description: String!, $hobbiesId: [Float!]!) {
+  createGroup(data: {
+    name: $name,
+    description: $description,
+    hobbiesId: $hobbiesId
+  }) {
+    id
+    name
+    description
+  }
+}

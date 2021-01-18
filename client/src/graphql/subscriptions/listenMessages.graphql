@@ -1,0 +1,7 @@
+subscription {
+    listenMessages {
+        id
+        userName
+        content
+    }
+}

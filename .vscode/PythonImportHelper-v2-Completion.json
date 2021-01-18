@@ -1,0 +1,56 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "tarfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tarfile",
+        "description": "tarfile",
+        "detail": "tarfile",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "tarball",
+        "kind": 5,
+        "importPath": "server.node_modules.sqlite3.deps.extract",
+        "description": "server.node_modules.sqlite3.deps.extract",
+        "peekOfCode": "tarball = os.path.abspath(sys.argv[1])\ndirname = os.path.abspath(sys.argv[2])\ntfile = tarfile.open(tarball,'r:gz');\ntfile.extractall(dirname)\nsys.exit(0)",
+        "detail": "server.node_modules.sqlite3.deps.extract",
+        "documentation": {}
+    },
+    {
+        "label": "dirname",
+        "kind": 5,
+        "importPath": "server.node_modules.sqlite3.deps.extract",
+        "description": "server.node_modules.sqlite3.deps.extract",
+        "peekOfCode": "dirname = os.path.abspath(sys.argv[2])\ntfile = tarfile.open(tarball,'r:gz');\ntfile.extractall(dirname)\nsys.exit(0)",
+        "detail": "server.node_modules.sqlite3.deps.extract",
+        "documentation": {}
+    },
+    {
+        "label": "tfile",
+        "kind": 5,
+        "importPath": "server.node_modules.sqlite3.deps.extract",
+        "description": "server.node_modules.sqlite3.deps.extract",
+        "peekOfCode": "tfile = tarfile.open(tarball,'r:gz');\ntfile.extractall(dirname)\nsys.exit(0)",
+        "detail": "server.node_modules.sqlite3.deps.extract",
+        "documentation": {}
+    }
+]

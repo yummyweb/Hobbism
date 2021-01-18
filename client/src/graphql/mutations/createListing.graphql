@@ -1,0 +1,12 @@
+mutation CreateListing($title: String!, $body: String!, $tags: String!) {
+  createListing(data: {
+    title: $title,
+    body: $body,
+    tags: $tags
+  }) {
+    id
+    createdAt
+    votes
+    creatorId
+  }
+}

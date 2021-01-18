@@ -1,0 +1,10 @@
+query Listings {
+    listings {
+        id
+        title
+        body
+        createdAt
+        creatorId
+        tags
+    }
+}
